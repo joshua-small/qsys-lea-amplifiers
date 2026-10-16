@@ -32,7 +32,7 @@ Version 1.4.2.9 uses Q-SYS's native WebSocket API. Connection attempts time out 
 
 Targets Q-SYS Designer/Core 10.5. Offline regression checks cover all 28 model choices. Native Designer/Core/device acceptance remains open. Inherited mic/line selections can reflect a local request rather than confirmed device feedback.
 
-The retained original LEA sources include versions 1.3.2.0, 1.4.2.0 and 1.4.2.1; the earliest preserved custom copy is 1.4.2.3. The precise original fork point has not been established. This repository preserves the custom plugin identity and source attribution. It does not relicense upstream material.
+The preserved upstream baseline is **LEA Amplifier 1.4.2.0** by Mike Matthews and Martin Velez. The first retained custom revision, **1.4.2.1**, identifies Joshua Small's September 22, 2026 edit and adds the CS62/62D and CS122/122D model entries. Later custom versions use a separate plugin identity. This repository preserves the custom plugin identity and source attribution. It does not relicense upstream material.
 
 ## Support
 
