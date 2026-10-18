@@ -39,3 +39,7 @@ The preserved upstream baseline is **LEA Amplifier 1.4.2.0** by Mike Matthews an
 Report bugs through [Issues](https://github.com/joshua-small/qsys-lea-amplifiers/issues), including plugin version, Q-SYS version, device/broker model and firmware, and reproduction steps. Remove credentials from logs and design files before sharing them.
 
 This is an independent personal package, not a Q-SYS Verified Asset or a manufacturer-endorsed release. Manufacturer names and logos identify compatible products. Existing source attribution is retained.
+
+### Offline package checks
+
+Run `python3 scripts/verify.py` and `python3 -m unittest discover -s tests -p test_package_identity.py`. Before a release, run `python3 scripts/verify.py --release-tag v<VERSION>`. The exact tag, project package version and `PluginInfo.Version` must agree. `BuildVersion` is a separate optional SDK field. These checks do not establish Designer or hardware acceptance.
